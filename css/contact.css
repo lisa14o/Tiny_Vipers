@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+* {
+padding:0;
+margin:0;
+}
+
+@font-face {
+    font-family: 'mathletebulky';
+    src: url('../fonts/Mathlete-Bulky[1]-webfont.eot');
+    src: url('../fonts/Mathlete-Bulky[1]-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mathlete-Bulky[1]-webfont.woff2') format('woff2'),
+         url('../fonts/Mathlete-Bulky[1]-webfont.woff') format('woff'),
+         url('../fonts/Mathlete-Bulky[1]-webfont.ttf') format('truetype'),
+         url('../fonts/Mathlete-Bulky[1]-webfont.svg#mathletebulky') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mathleteskinny';
+    src: url('../fonts/Mathlete-Skinny[1]-webfont.eot');
+    src: url('../fonts/Mathlete-Skinny[1]-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mathlete-Skinny[1]-webfont.woff2') format('woff2'),
+         url('../fonts/Mathlete-Skinny[1]-webfont.woff') format('woff'),
+         url('../fonts/Mathlete-Skinny[1]-webfont.ttf') format('truetype'),
+         url('../fonts/Mathlete-Skinny[1]-webfont.svg#mathleteskinny') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mathletebulky_slant';
+    src: url('../fonts/Mathlete-BulkySlant[1]-webfont.eot');
+    src: url('../fonts/Mathlete-BulkySlant[1]-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mathlete-BulkySlant[1]-webfont.woff2') format('woff2'),
+         url('../fonts/Mathlete-BulkySlant[1]-webfont.woff') format('woff'),
+         url('../fonts/Mathlete-BulkySlant[1]-webfont.ttf') format('truetype'),
+         url('../fonts/Mathlete-BulkySlant[1]-webfont.svg#mathletebulky_slant') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+font-family: 'mathleteskinny';
+
+}
+
+p {
+font-family: 'mathleteskinny';
+font-size:20px;	
+}
+
+#wrapper {
+width:100%;
+margin:auto;
+background-color:rgba(255, 255, 255, .75);
+}
+
+header {
+background-image:url(../images/pixels3.gif);
+height:250px;
+	
+}
+
+#main {
+width:500px;
+margin: 10% auto 12%;	
+padding-bottom:50px;
+font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 580; 
+}
+
+h1 {
+font-family: 'mathletebulky_slant'; 
+font-size: 45px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 700; 		
+}
+
+
+
+nav {
+height:50px;
+background-color:rgba(242, 239, 24, .9);
+line-height:50px;
+width:369px;
+float:left;
+font-family: 'mathleteskinny'; 
+font-size:40px;	
+margin-top:200px;
+}
+
+nav ul {
+text-align:center;
+
+}
+
+/*nav ul li.small {
+list-style-type:none;
+width:31.33%;
+float:left;
+border-radius:8px;
+}*/
+
+nav ul li.big {
+list-style-type:none;
+width:25%;
+float:left;
+
+
+}
+
+nav ul li a {	
+text-decoration:none;
+color:#F4085C;
+display:block;
+font-weight:bold;
+
+}
+
+nav ul li a:hover {
+color:#F4085C;
+background:rgba(119, 244, 236, .8);
+
+}
+
+fieldset {
+width:500px;
+
+border:solid 2px;
+
+padding:20px;
+}
+
+legend {
+background:white;
+padding:7px;
+font-family: 'mathleteskinny';
+font-size:40px;
+
+}
+
+input[type=text] {
+display:block;
+width:60%;	
+margin-bottom:.8em;
+
+background:#FFFAF7;
+line-height:2em;
+}
+
+input[type=email] {
+display:block;
+width:60%;	
+margin-bottom:.8em;
+
+background:#FFFAF7;
+line-height:2em;
+}
+
+textarea {
+display:block;
+width:100%;	
+margin-bottom:.8em;
+
+background:#FFFAF7;
+line-height:2em;	
+}
+
+
+
+label {
+display:block;	
+padding-bottom:;
+font-family: 'mathleteskinny';
+font-size:25px;
+}
+
+
+input {
+line-height:1em;
+	
+
+}
+
+input[type=radio] {
+margin-top:0;
+margin-bottom:15px;	
+margin-left:10px;
+font-family: 'mathleteskinny';
+
+
+}
+
+input[type=submit] {
+	line-height:2em;
+	
+}
+
+form p {
+padding-bottom:.3em;
+}
+select {
+	margin-bottom:.8em;
+}
+
+#footer li{
+display:inline;
+padding:0 80px;
+}
+
+#footer ul {
+text-align:center;
+}
+
+#footer {
+background-color: #05A693;
+height:2em;
+line-height:2em;
+clear:both;
+color:black;
+font-family: 'mathletebulky';
+font-weight:400;
+font-size:25px;
+width:100%;
+margin:0 auto;
+}
+
+#footer a {
+color:white;	
+}
