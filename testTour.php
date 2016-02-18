@@ -1,9 +1,9 @@
-<?php include 'includes/final_config.php'?>
-<?php include 'includes/final_testHeader.php'?>
+<?php include 'includes/config.php'?>
+<?php include 'includes/testHeader.php'?>
 
 <h1> Testing testing 123 123</h1>
 </div> <!--close main-->
 
 
 
-<?php include 'includes/final_footer.php'?>
+<?php include 'includes/footer.php'?>

@@ -1,5 +1,5 @@
-<?php require 'includes/final_config.php';
-	  require 'includes/final_credentials.php';
+<?php require 'includes/config.php';
+	  require 'includes/credentials.php';
 	 
 
 /*if(isset($_GET['id']) && (int)$_GET['id'] > 0){#proper data must be on querystring
@@ -48,7 +48,7 @@ if($foundRecord)
 
 #<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1855168748/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://tinyvipers.bandcamp.com/album/empire-prism">Empire Prism by Tiny Vipers</a></iframe>
 
-include 'includes/final_header.php'; #header must appear before any HTML is printed by PHP
+include 'includes/header.php'; #header must appear before any HTML is printed by PHP
 if($foundRecord)
 {#only load data if record found
 ?>
@@ -67,7 +67,7 @@ if($foundRecord)
     echo '<div align="center"><a href="ass_list.php">Another Muffin?</a></div>';
 }
 
-include 'includes/final_footer.php'; 
+include 'includes/footer.php'; 
 ?>
 
 

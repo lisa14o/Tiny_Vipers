@@ -5,49 +5,49 @@ define ('DEBUG', TRUE);
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 switch (THIS_PAGE){
-	case "index.php":
+	case "final_index.php":
 		$title="Tiny Vipers Home";
 		$href="css/home.css";
 	break;
-	case "tour.php":
+	case "final_tour.php":
 		$title="Tiny Vipers Tour";
 		$href="css/tour.css";
 		
 	break;
-	case "music.php":	
+	case "final_music.php":	
 		$title="Tiny Vipers Music";
 		$href="css/music.css";
 	break;
-	case "contact.php":
+	case "final_contact.php":
 		$title="Contact Tiny Vipers";
 		$href="css/contact.css";
 	break;
 	//album pages
-	case "empirePrism.php":
+	case "final_empirePrism.php":
 		$title="Empire Prism";
 		$href="css/empirePrism.css";
 		$album='style="border: 0; width: 470px; height: 590px;" src="https://bandcamp.com/EmbeddedPlayer/album=1855168748/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://tinyvipers.bandcamp.com/album/empire-prism">Empire Prism by Tiny Vipers</a>';
 	break;
-	case "handsAcross.php":
+	case "final_handsAcross.php":
 		$title="Hands Across The Void";
 		$href="css/handsAcross.css";
 		$album='style="border: 0; width: 470px; height: 590px;" src="https://bandcamp.com/EmbeddedPlayer/album=2698175251/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://tinyvipers.bandcamp.com/album/hands-accross-the-void">Hands Accross the void by Tiny Vipers</a>';
 	break;
-	case "foreignBody.php":
+	case "final_foreignBody.php":
 		$title="Foreign Body";
 		$href="css/foreignBody.css";
 		$album='width="560" height="315" src="https://www.youtube.com/embed/cTcRCV6fXDY" frameborder="0" allowfullscreen>';
 	break;
-	case "lifeOn.php":
+	case "final_lifeOn.php":
 		$title="Life On Earth";
 		$href="css/lifeOn.css";
 		$album='style="border: 0; width: 470px; height: 590px;" src="https://bandcamp.com/EmbeddedPlayer/album=2469397014/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://tinyvipers.bandcamp.com/album/life-on-earth">Life on Earth by Tiny Vipers</a>';
 	break;
-	case "testTour.php":
+	case "final_testTour.php":
 		$title="Test Tour";
 		$href="css/testTour.css";
 	break;	
-	case "view.php":
+	case "final_view.php":
 		
 		$href="css/empirePrism.css";
 	break;		
@@ -55,10 +55,10 @@ switch (THIS_PAGE){
 		$title=THIS_PAGE;
 }
 //nav associative array
-$nav1["index.php"]="Home";
-$nav1["tour.php"]="Tour";
-$nav1["music.php"]="Music";
-$nav1["contact.php"]="Contact";
+$nav1["final_index.php"]="Home";
+$nav1["final_tour.php"]="Tour";
+$nav1["final_music.php"]="Music";
+$nav1["final_contact.php"]="Contact";
 
 //to display our array
 function makeLinks($fooArray)

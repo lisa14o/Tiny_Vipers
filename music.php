@@ -1,13 +1,13 @@
 <?php 
 
-include 'includes/final_config.php';
-include 'includes/final_credentials.php';
+include 'includes/config.php';
+include 'includes/credentials.php';
 
 $sql = "select name, merchId, price, picture from tinyMerchFinal";
 
 $iConn = @mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME) or die(myerror(__FILE__,__LINE__,mysqli_connect_error()));
 $result = mysqli_query($iConn,$sql) or die(myerror(__FILE__,__LINE__,mysqli_error($iConn)));
-include 'includes/final_header.php';
+include 'includes/header.php';
 
 if(mysqli_num_rows($result) > 0)
 {#records exist - process
@@ -50,7 +50,7 @@ DOESN'T WORK	if(mysqli_num_rows($result) > 0)
 }
 @mysqli_free_result($result);
 
-include 'includes/final_footer.php';
+include 'includes/footer.php';
 ?>
 
 

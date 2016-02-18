@@ -1,5 +1,5 @@
-<?php include 'includes/final_config.php'?>
-<?php include 'includes/final_header.php'?>
+<?php include 'includes/config.php'?>
+<?php include 'includes/header.php'?>
 <?php
 DEFINE('THIS_PAGE1' , basename($_SERVER['PHP_SELF']));
    if(isset($_POST['name'])) 
@@ -53,5 +53,5 @@ DEFINE('THIS_PAGE1' , basename($_SERVER['PHP_SELF']));
 ';
 }
 
- include 'includes/final_footer.php';
+ include 'includes/footer.php';
 ?>
