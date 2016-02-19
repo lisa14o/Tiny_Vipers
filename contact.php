@@ -21,7 +21,7 @@ DEFINE('THIS_PAGE1' , basename($_SERVER['PHP_SELF']));
    else{//more to add
    	echo 
    	'
-<body>
+
 	<form action=" '.THIS_PAGE1.' " method="post" >
 		<fieldset>
 			<legend>Contact Tiny Vipers</legend>

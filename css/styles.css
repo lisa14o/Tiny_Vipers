@@ -54,7 +54,7 @@ main {
     font-family:'mathleteskinny'; 
 }
 
-#player {
+.player {
     margin: 1em auto;	
     width: 500px;
     height: 590px;
@@ -62,8 +62,9 @@ main {
     text-align:center;
 }
 
-#player iframe {
+.player iframe {
     width: 500px;
+
 }
 
 h1 {
@@ -155,6 +156,10 @@ nav ul li a:hover {
     height: 320px;  
 }
 
+.albums h3 {
+    text-align: center;
+}
+
 fieldset {
     width: 500px;
     border: black solid 2px;
@@ -210,6 +215,11 @@ input[type=radio] {
 
 input[type=submit] {
     line-height: 2em;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
 }
 
 form p {
