@@ -58,60 +58,20 @@ background:white;
 
 #wrapper {
 width:100%;
-margin:auto;
 background:white;
 }
 
 header {
 background-image:url(../images/pixels3.gif);
 height:250px;
-	
-}
-/*new code*/
-#menu{
-	
+    
 }
 
-.hidden{
-	
-}
-
-li ul{
-	display:none;	
-}
-
-li ul li{
-	display:block;
-	float: none;	
-}
-ul li a:hover + .hidden, .hidden:hover {
-	display: block;
-}
-li:hover a {
-	background: #19c589;
-}
-
-/*Style for dropdown links*/
-li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-	background: #19c589;
-	color: #fff;
-}
-
-/*end of new code*/
-
-#main {
+main {
 width:500px;
-margin: 12% auto 10%;	
-
-font-family:font-family: 'mathletebulky_slant';
+margin: 12% auto 10%;   
+font-family: 'mathletebulky_slant';
+text-align: center;
 }
 
 h1 {
@@ -119,50 +79,35 @@ font-family: 'mathletebulky_slant';
 font-size: 45px; 
 font-style: normal; 
 font-variant: normal; 
-font-weight: 700; 		
+font-weight: 700;       
 }
 
-img {
-display:block;	
-}
 
-#nav {
+nav {
 height:50px;
 background-color:rgba(242, 239, 24, .9);
 line-height:50px;
 width:369px;
 float:left;
 font-family: 'mathleteskinny'; 
-font-size:40px;	
+font-size:40px; 
 margin-top:200px;
-
-    
-    z-index: 1001;
-
 }
 
 
-#nav ul {
+nav ul {
 text-align:center;
 
 }
 
-/*#nav ul li .small {
-list-style-type:none;
-width:31.33%;
-float:left;
-border-radius:8px;
-}*/
-
-#nav li {
+nav ul li.big {
 list-style-type:none;
 width:25%;
 float:left;
 border-radius:8px;
-
 }
 
-#nav ul li a {	
+nav ul li a {   
 text-decoration:none;
 color:#F4085C;
 display:block;
@@ -170,65 +115,21 @@ font-weight:bold;
 
 }
 
-#nav ul li a:hover {
+nav ul li a:hover {
 color:#F4085C;
 background:rgba(119, 244, 236, .8);
+}
 
-
-
-/*testing rollover memu*/
-a.mainNav{
-    height:50px;
-background-color:rgba(119, 244, 236, .8);
-line-height:50px;
-width:369px;
-float:left;
-font-family: 'mathleteskinny'; 
-font-size:40px;	
-margin-top:200px;
-display:block;
-}
-a.mainNav:hover{
-    background-color: #3D6199;
-    color: rgba(119, 244, 236, .8);
-}
-a.selectedRollover{
-    height:50px;
-background-color:rgba(242, 239, 24, .9);
-line-height:50px;
-width:369px;
-float:left;
-font-family: 'mathleteskinny'; 
-font-size:40px;	
-margin-top:200px;
-}
-.rolloverMenu{
-    float:left;
-    padding: 10px 10px 6px 10px;
-    position: absolute;
-    z-index: 1000;
-    background-color: #3D6199;
-    width: 100px;
-}
-.rolloverMenu#mainMenu{
-    top: 40px;
-}
-.rolloverMenu a{
-    color: White;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 20px;
-}
-#footer li{
+footer li{
 display:inline;
 padding:0 80px;
 }
 
-#footer ul {
+footer ul {
 text-align:center;
 }
 
-#footer {
+footer {
 background-color: #05A693;
 height:2em;
 line-height:2em;
@@ -241,10 +142,11 @@ width:100%;
 margin:0 auto;
 }
 
-/*#footer a {
-color:white;	
-}*/
-
+@media (max-width: 500px) {
+    h1 {
+        font-size: 30px;    
+    }
+}
 
 
 

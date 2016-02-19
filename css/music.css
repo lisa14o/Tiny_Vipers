@@ -1,7 +1,4 @@
-@charset "utf-8";
-/* CSS Document */
-@charset "utf-8";
-/* CSS Document */
+
 
 * {
 padding:0;
@@ -36,10 +33,6 @@ margin:0;
 
 
 
-body {
-
-
-}
 
 #wrapper {
 width:100%;
@@ -61,22 +54,21 @@ padding-bottom:20px;
 
 
 
-#albums {
-width:320px;
-height: 336px;
-float:left;
-margin:100px 20px 50px 100px;	
+.albums {
+    width: 320px;
+    height: 336px;
+    float: left;
+    margin: 100px 20px 50px 100px;	
 }
 
-#albums a {
-width: 320px;
-height: 280px;
-
+.albums a {
+    width: 320px;
+    height: 280px;
 }
 
-#albums a img {
-width: 320px;
-height: 320px;	
+.albums a img {
+    width: 320px;
+    height: 320px;	
 }
 
 h1 {
@@ -168,16 +160,16 @@ background:rgba(119, 244, 236, .8);
 }
 
 
-#footer li{
+footer li{
 display:inline;
 padding:0 80px;
 }
 
-#footer ul {
+footer ul {
 text-align:center;
 }
 
-#footer {
+footer {
 background-color: #05A693;
 height:2em;
 line-height:2em;
@@ -190,7 +182,7 @@ width:100%;
 margin:0 auto;
 }
 
-#footer a {
+footer a {
 color:white;	
 }
 

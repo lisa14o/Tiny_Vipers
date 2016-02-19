@@ -60,7 +60,7 @@ if($foundRecord)
 <h3 align="center"> <?=$description?></h3>
 <h4 align="center"><?=$type?></h4>
 <h5 align="center"><i>$<?=$price?>.00</i></h5>
-</div> <!--end main-->
+</main>
 <?php
 }else{//no such merch!
     echo '<div align="center">What! No such muffin? There must be a mistake!!</div>';

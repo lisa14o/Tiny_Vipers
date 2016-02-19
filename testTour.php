@@ -1,8 +1,8 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/testHeader.php'?>
+<?php include 'includes/header.php'?>
 
-<h1> Testing testing 123 123</h1>
-</div> <!--close main-->
+<h1> Tiny Vipers is currently not on tour. Join the mailing group to get updates!</h1>
+</main> 
 
 
 

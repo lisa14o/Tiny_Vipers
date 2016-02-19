@@ -13,7 +13,7 @@ if(mysqli_num_rows($result) > 0)
 {#records exist - process
 	while($row = mysqli_fetch_assoc($result))
 	{# process each row
-         echo '<div id="albums"><a href="final_view.php?id=' . $row['merchId'] . '"><img src="images/' . $row['picture'] . ' "></a>';
+         echo '<div class="albums"><a href="view.php?id=' . $row['merchId'] . '"><img src="images/' . $row['picture'] . ' "></a>';
          echo '<h3>' . $row['name'] . '</h3></div>';
          #echo '<h3> <i>for</i> $' . (int)$row['price'] . '</div><br />';
 		#echo '<div id="albums"><img src="images/' . $row['picture'] . '"height="250px" ></a></div>';

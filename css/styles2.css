@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+padding:0;
+margin:0;
+}
+
+body {
+font-family:arial;
+font-size:100%;
+color:#666;
+line-height:1.5;
+background-image:url(../img/bg-body.png);
+background-attachment:fixed;
+
+}
+
+#wrapper {
+width:940px;
+margin:0 auto;
+overflow:hidden;
+background-color:rgba(255, 255, 255, .95);
+padding:0 20px;
+}
+
+header {
+height:200px;
+
+}
+
+#logo {
+padding:1.5em 0;
+}
+
+
+#facebook {
+position:fixed;
+right:0;
+bottom:50px;
+}
+
+

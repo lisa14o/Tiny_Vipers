@@ -11,11 +11,11 @@
 		<header> 
 			<nav>
 				<ul>
-					<li class="big"><a href="final_index.php">HOME</a></li>
-					<li class="big"><a href="final_music.php">MUSIC</a></li>
-					<li class="big"><a href="final_tour.php">TOUR</a></li>
-					<li class="big"><a href="final_contact.php">CONTACT</a></li>
+					<li class="big"><a href="index.php">HOME</a></li>
+					<li class="big"><a href="music.php">MUSIC</a></li>
+					<li class="big"><a href="testTour.php">TOUR</a></li>
+					<li class="big"><a href="contact.php">CONTACT</a></li>
 				</ul>
 			</nav>
 		</header>
-		<div id="main">
+		<main>

@@ -49,7 +49,7 @@ DEFINE('THIS_PAGE1' , basename($_SERVER['PHP_SELF']));
 		</fieldset>
 	</form>
 
-</div> <!--end main-->
+</main>
 ';
 }
 

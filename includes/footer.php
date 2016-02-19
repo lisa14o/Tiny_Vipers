@@ -1,4 +1,4 @@
-<div id="footer">
+<footer>
 				<ul>
 					<li>&copy; Copyright 2015</li>
 					<li>All Rights Reserved</li>
