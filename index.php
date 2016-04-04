@@ -3,8 +3,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?=$title?></title>
 	<link href="css/home.css" type="text/css" rel="stylesheet">
+	<link href="css/media_home.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<div id="wrapper">
@@ -15,7 +17,7 @@
 			<nav>
 				<ul>
 					<li class="big"><a href="music.php">MUSIC</a></li>
-					<li class="big"><a href="testTour.php">TOUR</a></li>
+					<li class="big"><a href="tour.php">TOUR</a></li>
 					<li class="big"><a href="contact.php">CONTACT</a></li>
 				</ul>
 			</nav>

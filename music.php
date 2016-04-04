@@ -14,7 +14,7 @@ if(mysqli_num_rows($result) > 0)
 	while($row = mysqli_fetch_assoc($result))
 	{# process each row
          echo '<div class="albums"><a href="view.php?id=' . $row['merchId'] . '"><img src="images/' . $row['picture'] . ' "></a>';
-         echo '<h3>' . $row['name'] . '</h3></div>';
+         echo '<h3>'. $row['name'] . '</h3></div>';
          #echo '<h3> <i>for</i> $' . (int)$row['price'] . '</div><br />';
 		#echo '<div id="albums"><img src="images/' . $row['picture'] . '"height="250px" ></a></div>';
  

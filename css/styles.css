@@ -39,40 +39,13 @@
     font-style: normal;
 }
 
-#wrapper {
-    width: 100%;
-}
-
-header {
-    background-image:url(../images/pixels3.gif);
-    height:250px;
-}
-
-main {
-    width: 80%;
-    margin: 2em auto;	
-    font-family:'mathleteskinny'; 
-}
-
-.player {
-    margin: 1em auto;	
-    width: 500px;
-    height: 590px;
-    display: block;
-    text-align:center;
-}
-
-.player iframe {
-    width: 500px;
-
-}
-
 h1 {
     font-family: 'mathletebulky_slant'; 
     font-size: 45px; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 700;       
+    font-weight: 700; 
+    text-align: center;      
 }
 
 h2, h3, h4, h5 {
@@ -85,7 +58,7 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 37px;
 }
 
 h4 {
@@ -105,6 +78,45 @@ img {
     display: block;	
 }
 
+#wrapper {
+    width: 100%;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+header {
+    background-image:url(../images/pixels3.gif);
+    height: 250px;
+  
+}
+
+main {
+    width: 1200px;
+    margin: 2em auto;   
+    font-family:'mathleteskinny'; 
+    overflow: hidden;
+}
+
+.tour {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin-top: 200px;
+    margin-bottom: 210px;
+}
+
+.player {
+    margin: 1em auto;   
+    width: 500px;
+    height: 650px;
+    display: block;
+    text-align:center;
+}
+
+.player iframe {
+    width: 500px;
+}
+
 nav {
     height: 50px;
     background-color: rgba(242, 239, 24, .9);
@@ -114,6 +126,7 @@ nav {
     font-family: 'mathleteskinny'; 
     font-size: 40px;	
     margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 nav ul {
@@ -140,20 +153,19 @@ nav ul li a:hover {
 }
 
 .albums {
-    width: 320px;
-    height: 336px;
+    width: 23%;
     float: left;
-    margin: 100px 20px 50px 100px;  
+    margin: 50px 20px 0 0;  
 }
 
 .albums a {
-    width: 320px;
-    height: 280px;
+   display: block
 }
 
 .albums a img {
-    width: 320px;
-    height: 320px;  
+   max-width: 100%;
+   display: block;
+   margin: auto;
 }
 
 .albums h3 {
@@ -164,6 +176,7 @@ fieldset {
     width: 500px;
     border: black solid 2px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 legend {
@@ -218,7 +231,6 @@ input[type=submit] {
 }
 
 form {
-    width: 500px;
     margin: 0 auto;
 }
 
@@ -227,16 +239,6 @@ form p {
 }
 select {
     margin-bottom: .8em;
-}
-
-
-footer li{
-    display: inline;
-    padding: 0 80px;
-}
-
-footer ul {
-    text-align: center;
 }
 
 footer {
@@ -249,9 +251,15 @@ footer {
     font-weight: 400;
     font-size: 25px;
     width: 100%;
-    margin: 0 auto;
+    margin-top: 100px;
 }
 
-footer a {
-    color: white;	
+footer ul {
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+    padding: 0 80px;
+    color: white;   
 }

@@ -11,24 +11,28 @@ switch (THIS_PAGE){
 		$href="css/home.css";
 	break;
 
-	case "testTour.php":
-		$title="Test Tour";
+	case "tour.php":
+		$title="Tour";
 		$href="css/styles.css";
+		$href_mobile="css/media.css";
 	break;	
 	
 	case "music.php":	
 		$title="Tiny Vipers Music";
 		$href="css/styles.css";
+		$href_mobile="css/media.css";
 	break;
 
 	case "contact.php":
 		$title="Contact Tiny Vipers";
 		$href="css/styles.css";
+		$href_mobile="css/media.css";
 	break;
 
 	case "view.php":
 		$title="test";
 		$href="css/styles.css";
+		$href_mobile="css/media.css";
 	break;	
 
 	default:

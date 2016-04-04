@@ -28,9 +28,12 @@
 }
 
 #wrapper {
-    width: 940px;
+    width: 100%;
     margin: 200px auto 150px;
     background: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 main {
@@ -44,7 +47,7 @@ img {
     padding-bottom: 20px;
 }
 
- h1 {
+h1 {
 	font-family: 'mathleteskinny'; 
 	font-size: 20px;
 	padding-bottom: 30px; 
@@ -83,15 +86,6 @@ nav ul li a:hover {
     background: rgba(119, 244, 236, .8);
 }
 
-footer li{
-    display: inline;
-    padding: 0 80px;
-}
-
-footer ul {
-    text-align: center;
-}
-
 footer {
     background-color: #05A693;
     height: 2em;
@@ -102,9 +96,20 @@ footer {
     font-weight: 400;
     font-size: 25px;
     width: 100%;
-    margin: 0 auto;
+    margin-top: 100px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+    padding: 0 80px;
+    color: white;   
 }
 
 footer a {
-    color: white;	
+    text-decoration: none;
+    color: white;
 }
